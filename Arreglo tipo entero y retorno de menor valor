@@ -1,0 +1,11 @@
+function menor(arreglo){
+    var arreglo = [];
+    const men = arreglo[0];
+    for(i=1;i<arreglo.length;i++){
+        if (arreglo[i] < men){
+            men = arreglo[i];
+        }
+    }
+    return men;
+
+}
